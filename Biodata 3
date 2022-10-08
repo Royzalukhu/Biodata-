@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+string nama ;
+int tglLhr ;
+int umur ;
+string dmsl ;
+
+int main(int argc, char *argv[])
+{
+
+cout << "Masukkan nama kamu : " ;
+cin >> nama ;
+cout << "Masukkan Tanggal lahir : " ;
+cin >> tglLhr ;
+cout << "Masukkan Umur : " ;
+cin >> umur ;
+cout << "Domisili kamu : " ;
+cin >> dmsl ;
+
+cout << "Nama : " + nama << endl ; 
+cout << "Tanggal lahir : " ;
+cout << tglLhr << endl ;
+cout << "Umur : " ;
+cout << umur << endl ;
+cout << "Domisili : " + dmsl ;
+
+} 
